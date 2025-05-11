@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NIR Tech</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="theme-toggle">
+      <label class="switch">
+        <input type="checkbox" id="themeSwitch">
+        <span class="slider round"></span>
+      </label>
+      <span id="themeText">Light Mode</span>
+    </div>
+
+    <h1>NIR Second Derivative</h1>
+    <input type="file" id="csvFile" accept=".csv" />
+    <div id="chart"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
